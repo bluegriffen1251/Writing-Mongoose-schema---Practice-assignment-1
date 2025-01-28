@@ -33,6 +33,6 @@ const newuser = new mongoose.Schema({
     lastlogin :{
         type : Date,
     },
-
-
 })
+
+module.exports = mongoose.model('user' , newuser);
